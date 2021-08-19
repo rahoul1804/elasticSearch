@@ -1,0 +1,70 @@
+{
+	"id": "17de2c30-c72f-12fa-fbf4-4c93920575dc",
+	"name": "ElasticSearch",
+	"description": "",
+	"order": [
+		"7be813f2-2fc3-8ceb-552d-918f5a8da442",
+		"27a530cf-5a98-c301-b2e6-6d7af082233c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1556190990439,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "27a530cf-5a98-c301-b2e6-6d7af082233c",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8081/product/11",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "17de2c30-c72f-12fa-fbf4-4c93920575dc",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8081/product/11",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1556191001692,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7be813f2-2fc3-8ceb-552d-918f5a8da442",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/product/addProduct",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "17de2c30-c72f-12fa-fbf4-4c93920575dc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8081/product/addProduct",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1556190993826,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "     {\r\n\t\t\"id\" :1,\r\n\t\t\"productName\" : \"Motorola\",\r\n\t\t\"price\" : \"100\"\r\n\t    }\r\n\t\r\n"
+		}
+	]
+}
